@@ -56,4 +56,11 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("androidx.navigation:navigation-compose:2.9.5")
+    implementation("androidx.compose.animation:animation:1.7.2")
+    implementation("androidx.compose.animation:animation-core:1.7.2")
+    implementation("androidx.compose.animation:animation-graphics:1.7.2")
+    implementation(platform("androidx.compose:compose-bom:2024.09.00"))
+    implementation("androidx.navigation:navigation-compose:2.8.3")
+    implementation("androidx.compose.animation:animation:1.7.3")
 }
